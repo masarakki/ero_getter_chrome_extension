@@ -1,0 +1,13 @@
+{
+    "name": "EroGetter Chrome",
+    "version": "1.0",
+    "description": "connect ero_getter",
+    "content_scripts": [
+        {
+            "matches": ["*"],
+            "js": ["lib/jquery.min.js", "lib/ero_getter.js"],
+            "css": ["css/ero_getter.css"]
+        }
+    ],
+    "permissions": ["http://*/"]
+}
