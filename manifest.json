@@ -2,12 +2,11 @@
     "name": "EroGetter Chrome",
     "version": "1.0",
     "description": "connect ero_getter",
-    "content_scripts": [
+    "browser_action": [
         {
-            "matches": ["*"],
-            "js": ["lib/jquery.min.js", "lib/ero_getter.js"],
-            "css": ["css/ero_getter.css"]
+            "default_icon": "images/icon.png",
+            "default_title": "EroGetter",
+            "popup": "popup.html"
         }
-    ],
-    "permissions": ["http://*/"]
+    ]
 }
