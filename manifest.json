@@ -2,11 +2,9 @@
     "name": "EroGetter Chrome",
     "version": "1.0",
     "description": "connect ero_getter",
-    "browser_action": [
-        {
-            "default_icon": "images/icon.png",
-            "default_title": "EroGetter",
-            "popup": "popup.html"
-        }
-    ]
+    "browser_action": {
+      "default_icon": "images/icon.png",
+      "default_title": "EroGetter",
+      "popup": "lib/popup.html"
+    }
 }
