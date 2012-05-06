@@ -4,7 +4,8 @@
     "description": "connect ero_getter",
     "browser_action": {
       "default_icon": "images/icon.png",
-      "default_title": "EroGetter",
-      "popup": "lib/popup.html"
-    }
+      "default_title": "EroGetter"
+    },
+    "background_page": "lib/background.html",
+    "permissions": ["tabs", "http://*/", "https://*/"]
 }
