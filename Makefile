@@ -11,7 +11,7 @@ haml:
 	haml src/popup.haml > lib/popup.html
 
 sass:
-	sass src/style.sass > lib/style.sass
+	sass src/style.sass > lib/style.css
 
 watch:
 	coffee -o lib/ -cw src/
