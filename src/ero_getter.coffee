@@ -1,7 +1,8 @@
 post_url = (tab) ->
     url = tab.url
+    host = localStorage["host"]
     $.ajax {
-        'url': 'http://localhost:9393'
+        'url': host
         'type': 'POST'
         'data': 'url=' + url
         'success': (data) ->
